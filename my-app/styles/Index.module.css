@@ -1,0 +1,232 @@
+@import url('http://fonts.cdnfonts.com/css/tnt-x-plosion');
+
+#main {
+    width:100%;
+    height:100%;
+    background: linear-gradient(-45deg, #ffffff, #7e6a6a, #ffffff, #beb4b4  );
+    background-size: 200% 200%;
+    animation: sidebar 40s ease infinite;
+    scrollbar:bih
+}
+
+
+#sidebar {
+    height: auto;
+    text-align: center;
+    border-left: 2px dotted #ccc;
+    border-right: 1px solid #000000;
+    background: linear-gradient(90deg, #ffffff, #d0d7d0, #ffffff, #e4e8e1);
+    background-size: 200% 200%;
+    animation: sidebar 10s ease infinite;
+}
+
+@keyframes sidebar {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+#imgsidebar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#namesidebar {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: -5px;
+    height: 45px;
+
+}
+
+
+
+.soicalsidebar {
+    display: inline-block;
+}
+
+.soicalicon {
+    transition: all 0.3s;
+    filter: drop-shadow(10px 2px 4px #a3a3a4);
+    padding: 5px;
+    margin-top:-10px;
+}
+
+.soicalicon:hover {
+    transform: rotateX(45deg);
+    filter: none;
+    opacity: 50%;
+}
+
+.ulsidebar li {
+    transition: all 0.5s;
+    list-style: none;
+    text-align: left;
+    font-family: 'TNT X Plosion', sans-serif;
+}
+
+
+.ulsidebar li:hover {
+    cursor: pointer;
+    color: #dcd6d6;
+    font-weight: bold;
+    margin-left:40px;
+    background:rgba(0,0,0,.7);
+    border-radius: 3px;
+
+}
+/*------------info col-md- 9 - index*/
+.info{
+    margin-top:40px;
+    height:auto;
+
+}
+.info h4{
+    font-weight:bold;
+    margin-left:90px;
+    margin-top:40px;
+}
+.info p {
+   text-align:center;
+    line-height:40px;
+    font-weight: bold;
+    color: transparent;
+    background-position: right;
+    background-size: 100% 100%;
+    background-image: linear-gradient(hsl(0, 2%, 25%), hsl(0, 3%, 19%));
+    transition: all 0.5s ease-in-out;
+    display: inline;
+    background-repeat: no-repeat;
+
+}
+.info p:hover{
+    color: black;
+    background-size: 0 100%;
+}
+
+
+.hideinof{
+    color: #a4a1a1 ;
+}
+
+
+.mainedu{
+    width:100%;
+    height:100%;
+    background: linear-gradient(-90deg,  #ffffff, #7e6a6a, #ffffff, #beb4b4  );
+    background-size: 200% 200%;
+    animation: sidebar 40s ease infinite;
+}
+.infoeducation h3{
+    font-weight:bold;
+}
+
+.infoeducation{
+    margin-top:40px;
+    height:auto;
+}
+.infoeducation span{
+    margin-left:90px;
+    line-height:40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/*=====================================================================================================*/
+/*========================================working======================================================*/
+/*=====================================================================================================*/
+
+.mainwork{
+    width:100%;
+    height:100%;
+    background: linear-gradient(45deg,  #ffffff, #7e6a6a, #ffffff, #beb4b4  );
+    background-size: 200% 200%;
+    animation: sidebar 40s ease infinite;
+}
+.infowork{
+    margin-top:40px;
+}
+.infowork h3{
+    font-weight:bold;
+}
+
+/*=====================================================================================================*/
+/*========================================specialt======================================================*/
+/*=====================================================================================================*/
+
+.infospecialt{
+    margin-top:80px;
+    text-align: center;
+}
+.infospecialt h3{
+    font-weight:bold;
+    text-align:left;
+    margin-left:20px;
+}
+.infospecialt span{
+    height:30px;
+    text-align:center;
+    line-height: 130%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/*=====================================================================================================*/
+/*========================================my fav======================================================*/
+/*=====================================================================================================*/
+
+.mainfav{
+    width:100%;
+    height:100%;
+    background: linear-gradient(70deg,  #ffffff, #7e6a6a, #ffffff, #beb4b4  );
+    background-size: 200% 200%;
+    animation: sidebar 40s ease infinite;
+
+}
+.myimgfav{
+    width:110%;
+    height:auto;
+    text-align:center;
+}
+
+.imgfav{
+    width:150px;
+    height:150px;
+    transition: all 0.5s;
+    margin:20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    position:relative;
+
+}
+.linkimg{
+    display:inline-block;
+}
+.imgfav:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0 6px 12px -2px, rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+    border: 1px dotted black;
+    cursor:pointer;
+    z-index: 10;
+transform:scale(2.5);
+
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++contact++++++++++++++++++++++++++++++++++++++++++=======*/
+
+.contact{
+    text-align: center;
+    line-height:50px;
+}
+.telcontact span {
+    display:inline-block;
+}
